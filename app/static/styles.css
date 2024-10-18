@@ -1,0 +1,127 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #2c3e50;
+}
+
+/* Contenedor principal */
+.container {
+    width: 420px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo del título */
+h2 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #34495e;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* Etiquetas de los campos */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #34495e;
+}
+
+/* Estilo de los campos de entrada */
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdde1;
+    border-radius: 10px;
+    background-color: #f9fafb;
+    font-size: 1em;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #3498db;
+    background-color: #ffffff;
+    outline: none;
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.2);
+}
+
+/* Botón de envío */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* Estilo del enlace de registro */
+.register-link {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #95a5a6;
+}
+
+.register-link a {
+    color: #3498db;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.register-link a:hover {
+    color: #2980b9;
+}
+
+/* Mensajes de éxito y error */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li.success {
+    color: #27ae60;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+li.error {
+    color: #e74c3c;
+    font-weight: 600;
+    margin-top: 15px;
+}
